@@ -111,29 +111,29 @@ class Receipt:
 
 
 
-def testing():
-    cart = Shopping_Cart()
+# def testing():
+#     cart = Shopping_Cart()
 
-    apple = Product("Apple", 1.5)
-    cart.add_item(apple, 5)
+#     apple = Product("Apple", 1.5)
+#     cart.add_item(apple, 5)
 
-    banana = Product("Banana", 0.8)
-    cart.add_item(banana, 3)
+#     banana = Product("Banana", 0.8)
+#     cart.add_item(banana, 3)
 
-    print(cart.display_items())  # Output cart items
+#     print(cart.display_items())  # Output cart items
 
-    print(f"Total Price: {cart.calculate_total()}")  # Calculate total price
-    print(
-        f"Number of Items: {cart.calc_number_of_items()}"
-    )  # Calculate number of items
+#     print(f"Total Price: {cart.calculate_total()}")  # Calculate total price
+#     print(
+#         f"Number of Items: {cart.calc_number_of_items()}"
+#     )  # Calculate number of items
 
-    cart.update_quantity("Apple", 10)
-    print(cart.display_items())  # Update quantity of apples
+#     cart.update_quantity("Apple", 10)
+#     print(cart.display_items())  # Update quantity of apples
 
-    cart.remove_item("Banana")
-    print(cart.display_items())  # Remove bananas
+#     cart.remove_item("Banana")
+#     print(cart.display_items())  # Remove bananas
 
-    receipt = Receipt(cart, "John Doe")
+#     receipt = Receipt(cart, "John Doe")
 
 
 # testing()
